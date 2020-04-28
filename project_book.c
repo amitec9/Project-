@@ -1,5 +1,5 @@
 
-// Book magement
+// Book Management
 //Author :- Amit kumar
 #include<windows.h>
 #include<stdio.h>
