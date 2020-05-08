@@ -7,8 +7,9 @@ Prototyping breadboard
 2 buttons
 2 10K ohm resistors
 A stepper motor
-Motor driver
-Some jumper wires
+Motor drive
+
+Author :- Amit kumar.
 */
 
 uint16_t DISTANCE=3200;
