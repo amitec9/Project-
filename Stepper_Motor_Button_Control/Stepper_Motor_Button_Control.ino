@@ -15,10 +15,10 @@ Author :- Amit kumar.
 uint16_t DISTANCE=3200;
 uint8_t StepCounter = 0;
 uint8_t Stepping = false;
-uint8_t button1=4;//D4 pin
-uint8_t button2=5;//D5 pin
-uint8_t motorpin1=18;//D18 pin
-uint8_t motorpin2=19;//D19 pin
+uint8_t button1=8;//D4 pin
+uint8_t button2=9;//D5 pin
+uint8_t motorpin1=10;//D18 pin
+uint8_t motorpin2=11;//D19 pin
 
 
 void setup() {
@@ -30,7 +30,7 @@ void setup() {
 
   pinMode(button1, INPUT);
   pinMode(button2, INPUT);
-  Serial.begin(115200);//speed 115200 port COM7;
+  Serial.begin(9600);//speed 115200 port COM7;
   
 }
 
